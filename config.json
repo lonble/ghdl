@@ -1,0 +1,15 @@
+{
+    "overwrite": true,
+    "clear_matches": false,
+    "dir": "",
+    "token": "",
+    "concurrency": 5,
+    "repos": [
+        {
+            "owner": "xxx",
+            "repo": "xxx",
+            "token": "",
+            "filters": []
+        }
+    ]
+}

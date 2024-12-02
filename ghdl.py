@@ -143,7 +143,7 @@ def _download_asset(
             raise
 
 
-# duple: (overwrite, clear_matches, dir, token, concurrency, repos)
+# tuple: (overwrite, clear_matches, dir, token, concurrency, repos)
 def _check_config(config) -> tuple[bool, bool, str, str, int, list] | None:
     if type(config) is not dict:
         logger.error("Config Error: Not a valid config")
@@ -199,7 +199,7 @@ def _check_config(config) -> tuple[bool, bool, str, str, int, list] | None:
     return (overwrite, clear_matches, download_dir, token, concurrent_num, repos)
 
 
-# duple: (owner, repo, token, patterns)
+# tuple: (owner, repo, token, patterns)
 def _check_repo_config(repo_config) -> tuple[str, str, str, list[re.Pattern]] | None:
     if type(repo_config) is not dict:
         logger.error(

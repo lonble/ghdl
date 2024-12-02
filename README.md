@@ -1,6 +1,6 @@
 # ghdl
 
-A simple config file based python script to download the latest release assets from github.
+A config file based python script to download the latest release assets from github.
 
 ## Installation
 
